@@ -1,0 +1,24 @@
+test = {
+    'name': 'some-test',
+    'suites': [
+        {
+            'cases': [
+                {
+                    'code': r"""
+                    >>> # This is a doctest!
+                    >>> len(some_variable) == 4
+                    True
+                    """
+                },
+                {
+                    'code': r"""
+                    >>> # This is another doctest.
+                    >>> # This will run if the previous doctest passed
+                    >>> some_variable == "yeah"
+                    True
+                    """
+                }
+            ]
+        }
+    ]
+}
