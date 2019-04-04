@@ -1,6 +1,6 @@
 test = {
   'name': 'Question 2.1.2',
-  'points': 2,
+  'points': 1,
   'suites': [
     {
       'cases': [
@@ -37,7 +37,7 @@ test = {
       ],
       'scored': True,
       'setup': r"""
-      
+
       """,
       'teardown': '',
       'type': 'doctest'
